@@ -1,5 +1,5 @@
 {
-  "name": "typescript-typesafety",
+  "name": "safe-fetch-calls-in-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
