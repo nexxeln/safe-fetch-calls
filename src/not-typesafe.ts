@@ -14,7 +14,7 @@ const getAirlinesById = async (id: number): Promise<Airline> => {
     `https://api.instantwebtools.net/v1/airlines/${id}`
   ).then((res) => res.json());
 
-  return data.json() as Airline;
+  return data as Airline;
 };
 
 const airline = await getAirlinesById(2);
